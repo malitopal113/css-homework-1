@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(131, 129, 126, 0.089);
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+        
+}
+
+header h1 {
+        color: darkred;
+        font-size: 45px;
+        text-align: center;
+}
+nav {margin: 10px 0;}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+}    
+nav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+h2 {
+    color: darkblue;
+
+}
+h3{
+    color: burlywood;
+    font-family: inherit;
+}
+#hp-ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+
+}
+#yazı-ici-link:hover {
+    color: brown;
+    text-decoration: underline;
+
+}
+
+ol#products-list{
+    flex-direction: row;
+    
+    list-style-type: decimal;
+    
+}
+ol#products-list li{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+ol#products-list li img{
+    width: 250px;
+}
